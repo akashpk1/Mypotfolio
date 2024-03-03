@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="media.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <title>My Portfolio</title>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <nav id="pc_icon">
+        <div class="name">Akash P K</div>
+        <ul class="links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <nav id="hamburger">
+        <div class="name">Akash P K</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="ToggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#About" onclick="ToggleMenu()">About</a></li>
+                <li><a href="#Skills" onclick="ToggleMenu()">Skills</a></li>
+                <li><a href="#Experience" onclick="ToggleMenu()">Experience</a></li>
+                <li><a href="#Contact" onclick="ToggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="mypic">
+            <img src="./mypic.jpeg" alt="Akash profile Picture" />
+        </div>
+        <div class="section_text">
+            <p class="p1_txt">Hello, I'm</p>
+            <h1 class="title">Akash P K</h1>
+            <p class="p2_txt">Frontend Developer</p>
+            <div class="btn_container">
+                <button id="btn" class="btn_1" onclick="window.open(`./Portfolio/Akash_.pdf`)">
+                    Download CV
+                </button>
+                <button id="btn" class="btn_2" onclick="href='#Contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials_container">
+                <img src="./linkedin3.png" alt="linkedinprofile" class="icon"
+                    onclick="location.href='www.linkedin.com/in/akash-korachagaon-a6051a20b'" />
+                <img src="./insta1.jpg" alt="instaprofile" class="icon"
+                    onclick="location.href='https://instagram.com/'" />
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <p class="p1_txt">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section_container">
+            <!--<div class="my_pic">
+                        <img src="about3.jpg" alt="Profile-picture" class="about-pic">
+
+                    </div> -->
+            <div class="about-details">
+                <div class="about-containers">
+                    <div class="details-containers">
+                        <img src="./experience.png" alt="experience-icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>
+                            1.5+ Years <br />
+                            Systems Engineer at Infosys
+                        </p>
+                    </div>
+                    <div class="details-containers">
+                        <img src="./education.png" alt="education-icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>
+                            B.E [Bachelor of Engineering] in <br />
+                            Computer Science
+                        </p>
+                    </div>
+                </div>
+                <div class="txt-container">
+                    
+                        Self-motivated and hardworking fresher seeking for an opportunity to work in a 
+                        challenging environment. where I can utilize my engineering knowledge and skills and 
+                        want to be recognized as a contributing employee and want to help in developing the 
+                        organization.
+                    
+                </div>
+            </div>
+        </div>
+        <img src="./arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#Skills'" />
+    </section>
+    <section id="Skills">
+        <p class="p1_txt">Explore My</p>
+        <h1 class="title">Skills </h1>
+        <div class="Experience-details">
+            <div class="about-containers">
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experineced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experineced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>javascript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>React Js</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>Mongo DB</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-containers">
+                    <h2 class="experience-sub-title">Software Testing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>Selenium Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>Soap UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>Rest Assured</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.png" alt="experience-icon" class="icon" />
+                            <div>
+                                <h3>Oracle DB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#Experience'" />
+    </section>
+    <section id="Experience">
+        <p class="p1_txt">Explore My</p>
+        <h1 class="title" id="myexp">Work Experience</h1>
+        <div class="Experience-details">
+            <div class="about-details">
+                <div class="details-containers">
+                    <div class="My-experience">
+                        <ul>
+                            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore ipsa tenetur, natus
+                                excepturi sunt magnam error quibusdam saepe. Ut obcaecati iusto laboriosam in ad ipsam
+                                praesentium, maxime corrupti libero ipsum!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolorum odit quisquam
+                                vel eveniet debitis, ducimus consequatur fugiat, nam rerum laboriosam non sunt placeat
+                                perspiciatis, distinctio libero assumenda? Laborum, facilis?</li>
+                            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda natus molestiae
+                                dolorem amet dolore fugit, nemo temporibus nobis unde quisquam eveniet quo. Voluptatem
+                                consequatur maiores, molestiae assumenda culpa laborum cum!</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti, fugit
+                                officiis sit, praesentium tempore odio eos, quas necessitatibus aspernatur voluptatem
+                                non. Iure quibusdam placeat inventore laudantium nostrum est itaque?</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./arrow.png" alt="arrow-icon" class="icon arrow" onclick="location.href='#Contact'" />
+    </section>
+    <section id="Contact">
+        <p class="txt">Get in Touch</p>
+        <h1 class="title1">Contact Me</h1>
+        <div class="contact-container-1">
+            <div class="contact-container-2">
+                <img src="./email.png" alt="email" class="icon contact-icon">
+                <p><a href="mailto:akashkorachagaon.18@gmail.com">akashkorachagaon.18@gmail.com</a></p>
+            </div>
+            <div class="contact-container-2">
+                <img src="./linkedin2.png" alt="linkedin" class="icon contact-icon">
+                <p><a href="www.linkedin.com/in/akash-korachagaon-a6051a20b">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <!-- <nav>
+            <div class="nav-links"></div>
+            <ul class="links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav> -->
+        <p>Copyright &#169; 2024 Akash. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
